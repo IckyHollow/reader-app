@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Downloads/NreaderApp-20220819T152448Z-001/NreaderApp/app/src/main/res/layout/activity_pdf_detail.xml" value="0.259375" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.194" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/ic_comment_r.xml" value="0.194" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/ic_comment_w.xml" value="0.194" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/ic_email_g.xml" value="0.2265" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/ic_favorite_w.xml" value="0.194" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/ic_file_w.xml" value="0.194" />
@@ -14,6 +18,7 @@
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/shape_button02.xml" value="0.2265" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/shape_button03.xml" value="0.1755" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/shape_button_sub01.xml" value="0.1755" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/shape_comment.xml" value="0.194" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/shape_edittext01.xml" value="0.2265" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/shape_toolbar01.xml" value="0.1755" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/drawable/tab_background_selected.xml" value="0.194" />
@@ -23,10 +28,11 @@
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_dash_board_user.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.25" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_edit.xml" value="0.25" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_pdf_add.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_pdf_detail.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_pdf_detail.xml" value="0.264" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_pdf_edit.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_pdf_list_admin.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_pdf_list_admin2.xml" value="0.22826086956521738" />
@@ -35,9 +41,12 @@
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_profile_edit.xml" value="0.25" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/dialog_comment_add.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/fragment_book_user.xml" value="0.25" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/row_comment.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/row_layout.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/row_pdf_admin.xml" value="0.264" />
+        <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/row_pdf_favorite.xml" value="0.25" />
         <entry key="..\:/Users/Zeroc/AndroidStudioProjects/NreaderApp/app/src/main/res/layout/row_pdf_user.xml" value="0.25" />
       </map>
     </option>

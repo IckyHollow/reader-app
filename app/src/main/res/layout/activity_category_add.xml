@@ -59,6 +59,7 @@
             android:drawableStart="@drawable/ic_category_w"
             android:drawablePadding="10dp"
             android:hint="category title"
+            android:textColor="@color/white"
             android:inputType="textPersonName|textCapWords"
             android:padding="10dp"
             android:textColorHint="@color/gray_l"/>

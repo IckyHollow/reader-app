@@ -87,7 +87,7 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onSuccess(Void unused) {
                 Toast.makeText(RegisterActivity.this, "Account created", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(RegisterActivity.this, DashBoardUserActivity.class));
+                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                 finish();
             }
         }).addOnFailureListener(new OnFailureListener() {

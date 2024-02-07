@@ -217,7 +217,7 @@ public class MyApplication extends Application {
         progressDialog.show();
 
         StorageReference storageReference = FirebaseStorage
-                .getInstance().getReference(bookUrl);
+                .getInstance().getReferenceFromUrl(bookUrl);
         storageReference.getBytes(MAX_BYTES_PDF).addOnSuccessListener(new OnSuccessListener<byte[]>() {
             @Override
             public void onSuccess(byte[] bytes) {

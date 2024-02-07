@@ -3,11 +3,12 @@ package com.example.nreaderapp.models;
 public class ModelPdf {
     String uid, id, title, description, categoryId, url;
     long timestamp, viewsCount, dowloadsCount;
+    boolean favorite;
 
     public ModelPdf() {
     }
 
-    public ModelPdf(String uid, String id, String title, String description, String categoryId, String url, long timestamp, long viewsCount, long dowloadsCount) {
+    public ModelPdf(String uid, String id, String title, String description, String categoryId, String url, long timestamp, long viewsCount, long dowloadsCount, boolean favorite) {
         this.uid = uid;
         this.id = id;
         this.title = title;
@@ -17,6 +18,7 @@ public class ModelPdf {
         this.timestamp = timestamp;
         this.viewsCount = viewsCount;
         this.dowloadsCount = dowloadsCount;
+        this.favorite = favorite;
     }
 
     public String getUid() {
@@ -89,5 +91,13 @@ public class ModelPdf {
 
     public void setDowloadsCount(long dowloadsCount) {
         this.dowloadsCount = dowloadsCount;
+    }
+
+    public boolean isFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
     }
 }

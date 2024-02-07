@@ -109,6 +109,8 @@ public class DashBoardUserActivity extends AppCompatActivity {
         FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
         if (firebaseUser == null){
             binding.subtitleTv.setText("Not logged in");
+            binding.profileBtn.setVisibility(View.GONE);
+            binding.logoutBtn.setVisibility(View.GONE);
         }else {
             String email = firebaseUser.getEmail();
             binding.subtitleTv.setText(email);

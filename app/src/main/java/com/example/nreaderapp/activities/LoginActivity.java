@@ -96,8 +96,8 @@ public class LoginActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Please wait");
         progressDialog.setCanceledOnTouchOutside(false);
-        binding.emailEt.setText("ad@gmail.com");
-        binding.passwordEt.setText("123456");
+//        binding.emailEt.setText("ad@gmail.com");
+//        binding.passwordEt.setText("123456");
         binding.noAccountTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -109,6 +109,13 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 validateData();
+            }
+        });
+
+        binding.forgotTv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, ForgotPasswordActivity.class));
             }
         });
     }

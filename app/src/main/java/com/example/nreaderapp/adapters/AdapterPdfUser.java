@@ -14,7 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.nreaderapp.MyApplication;
-import com.example.nreaderapp.activities.admin.PdfDetailActivity;
+import com.example.nreaderapp.activities.PdfDetailActivity;
 import com.example.nreaderapp.databinding.RowPdfUserBinding;
 import com.example.nreaderapp.filters.FilterPdfUser;
 import com.example.nreaderapp.models.ModelPdf;

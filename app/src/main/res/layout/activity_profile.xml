@@ -32,15 +32,16 @@
             android:layout_centerHorizontal="true"
             android:textColor="@color/white"/>
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/profileEditBtn"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="10dp"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_edit_w"/>
+            android:layout_marginEnd="1dp"
+            android:background="@drawable/shape_button_sub01"
+            android:text="Edit"
+            android:textColor="@color/white"
+            android:drawableBottom="@drawable/ic_edit_w" />
 
     </RelativeLayout>
 
@@ -142,7 +143,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Account"
+                android:text="Favorite books"
                 android:textColor="@color/white"
                 android:textStyle="bold"/>
 
@@ -157,10 +158,29 @@
     </LinearLayout>
 
     <View
+        android:id="@+id/view1"
         android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/black"
         android:layout_below="@id/detailsLl"/>
+
+    <TextView
+        android:id="@+id/favoriteBooksLabelTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:text="Favorite Books"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/booksRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/favoriteBooksLabelTv"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_pdf_favorite"/>
 
 </RelativeLayout>

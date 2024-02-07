@@ -1,4 +1,4 @@
-package com.example.nreaderapp.activities.admin;
+package com.example.nreaderapp.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

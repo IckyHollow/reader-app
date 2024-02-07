@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "990896082245",
-    "project_id": "nreader-app",
-    "storage_bucket": "nreader-app.appspot.com"
+    "project_number": "320653635055",
+    "project_id": "nreader-app-62e99",
+    "storage_bucket": "nreader-app-62e99.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:990896082245:android:0f65e654997c219015822c",
+        "mobilesdk_app_id": "1:320653635055:android:7ab2b9438b546914891a1a",
         "android_client_info": {
           "package_name": "com.example.nreaderapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "990896082245-76grm3n29e0jkb6nbiargrm59ku3evtt.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.nreaderapp",
-            "certificate_hash": "4a74add27bd2f9fc23841c3d61aedef7ad1dd6bf"
-          }
-        },
-        {
-          "client_id": "990896082245-3d2316uic2v1n3d24gclsaiam981jhmg.apps.googleusercontent.com",
+          "client_id": "320653635055-e9242s0flcjsng9j6gktasb2tn9mb3jp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDwZhcSg1FG-flRdq9y5SuCnuTR8qSZ3Gw"
+          "current_key": "AIzaSyD8wxeNPgewKYyXpW-fF67r37k2ZgqcRwE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "990896082245-3d2316uic2v1n3d24gclsaiam981jhmg.apps.googleusercontent.com",
+              "client_id": "320653635055-e9242s0flcjsng9j6gktasb2tn9mb3jp.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
